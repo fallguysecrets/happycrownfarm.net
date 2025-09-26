@@ -1,225 +1,208 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>HAPPYCROWNFARM.NET - CRACK FORK OF FALLMASTER CHEATS</title>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Rubik:wght@600;700&display=swap" rel="stylesheet">
-  <style>
-    :root{
-      --bg1: #0f1724;
-      --bg2: #0b1220;
-      --accent: linear-gradient(90deg,#ffb86b,#ff6b8a);
-      --glass: rgba(255,255,255,0.06);
-      --muted: rgba(255,255,255,0.65);
-      --radius: 14px;
-    }
-    *{box-sizing:border-box}
-    html,body{height:100%}
-    body{
-      margin:0;font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial; 
-      background: radial-gradient(1200px 600px at 10% 10%, rgba(255,107,138,0.06), transparent 10%),
-                  radial-gradient(1000px 500px at 90% 90%, rgba(255,184,107,0.03), transparent 10%),
-                  linear-gradient(180deg,var(--bg1),var(--bg2));
-      color:#fff; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;
-      padding:48px;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hot babes 18+</title>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@700;900&family=Titan+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
 
-    .container{max-width:1100px;margin:0 auto}
+        #screen1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
 
-    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:40px}
-    .brand{display:flex;align-items:center;gap:14px}
-    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,#ff8aa2,#ffd08d);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 24px rgba(0,0,0,0.45)}
-    .logo svg{width:34px;height:34px}
-    .brand h1{margin:0;font-family:Rubik,Inter;font-weight:700;letter-spacing:-0.5px}
-    .brand p{margin:0;font-size:13px;color:var(--muted)}
+        #screen1 h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
 
-    nav a{color:rgba(255,255,255,0.75);text-decoration:none;margin-left:18px;font-weight:600}
+        #download-btn {
+            width: 300px;
+            height: 100px;
+            background-color: white;
+            color: black;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-    .hero{display:grid;grid-template-columns:1fr 420px;gap:32px;align-items:center}
-    .card{background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));
-          border-radius:var(--radius);padding:28px;box-shadow:0 8px 40px rgba(3,8,23,0.6);backdrop-filter: blur(6px);}
+        #screen2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://static.wikia.nocookie.net/fallguysultimateknockout_gamepedia_en/images/d/d1/FG_S6_pattern.png/revision/latest?cb=20211130133844');
+            background-repeat: repeat;
+            background-size: 200px 200px;
+            animation: scroll-bg 10s linear infinite;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: white;
+        }
 
-    .hero-left h2{font-family:Rubik;font-size:34px;margin:0 0 12px}
-    .hero-left p{color:var(--muted);margin:0 0 22px;font-size:15px}
+        @keyframes scroll-bg {
+            0% { background-position: 0 0; }
+            100% { background-position: -282.84px 282.84px; }
+        }
 
-    .features{display:flex;gap:12px;flex-wrap:wrap}
-    .feat{background:var(--glass);padding:12px 14px;border-radius:12px;font-weight:600;font-size:13px;color:#fff}
+        #gradient-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to bottom, transparent, #cb5569);
+            pointer-events: none;
+        }
 
-    .download-cta{display:flex;gap:12px;align-items:center;margin-top:18px}
-    .btn-primary{background:var(--accent);padding:14px 20px;border-radius:12px;border:0;font-weight:700;cursor:pointer;color:#081226;display:inline-flex;align-items:center;gap:10px;text-decoration:none;box-shadow:0 8px 30px rgba(255,107,138,0.12);}
-    .btn-secondary{background:transparent;border:1px solid rgba(255,255,255,0.06);padding:12px 16px;border-radius:12px;color:var(--muted);text-decoration:none}
+        #logo {
+            width: 300px;
+            animation: hover 2s ease-in-out infinite;
+        }
 
-    .card-right{padding:26px}
-    .mini-hero{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
-    .mini-hero h3{margin:0;font-size:16px}
-    .meta{color:var(--muted);font-size:13px}
+        @keyframes hover {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
 
-    .list{display:grid;gap:12px}
-    .list-item{display:flex;gap:12px;align-items:center;padding:12px;border-radius:10px;background:linear-gradient(180deg, rgba(255,255,255,0.01), transparent)}
-    .badge{width:44px;height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.02);font-weight:700}
+        #thanks {
+            font-family: 'Asap', sans-serif;
+            font-weight: 700;
+            font-size: 48px;
+            background: linear-gradient(90deg, #ff69b4, #ffff00, #00ff00, #00bfff, #9370db, #ff69b4);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: rainbow 5s linear infinite, expand-shrink 1s ease-in-out infinite;
+            margin: 20px 0;
+        }
 
-    footer{margin-top:48px;display:flex;flex-direction:column;align-items:center;gap:16px}
+        @keyframes rainbow {
+            0% { background-position: 0% 50%; }
+            100% { background-position: 200% 50%; }
+        }
 
-    .rainbow-text{
-      font-size:18px;
-      font-weight:800;
-      text-align:center;
-      background:linear-gradient(90deg,#ff9999,#ffcc99,#ffff99,#ccff99,#99ffcc,#99ccff,#cc99ff,#ff9999);
-      background-size:200% 100%;
-      -webkit-background-clip:text;
-      -webkit-text-fill-color:transparent;
-      background-clip:text;
-      animation:scrollRainbow 10s linear infinite;
-    }
+        @keyframes expand-shrink {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
 
-    @keyframes scrollRainbow{
-      0%{background-position:0% 0%}
-      100%{background-position:200% 0%}
-    }
+        #message-box {
+            background-color: grey;
+            border: 2px solid white;
+            border-radius: 20px;
+            padding: 20px;
+            width: 600px;
+            display: flex;
+            align-items: flex-start;
+            position: relative;
+        }
 
-    @keyframes fadeSlideIn{
-      0%{opacity:0;transform:translateY(30px)}
-      100%{opacity:1;transform:translateY(0)}
-    }
+        #selfie {
+            width: 100px;
+            height: 100px;
+            border-radius: 20px;
+            border: 2px solid white;
+            margin-right: 20px;
+        }
 
-    /* Responsive */
-    @media (max-width:960px){
-      .hero{grid-template-columns:1fr}
-      header{flex-direction:column;align-items:flex-start;gap:14px}
-    }
+        #message-content {
+            flex: 1;
+        }
 
-    /* subtle floating animation for the logo */
-    @keyframes floaty{0%{transform:translateY(0)}50%{transform:translateY(-6px)}100%{transform:translateY(0)}}
-    .logo{animation:floaty 4s ease-in-out infinite}
-  </style>
+        #flounder-title {
+            font-family: 'Titan One', cursive;
+            font-size: 24px;
+            background: linear-gradient(90deg, #ff69b4, #ffff00, #00ff00, #00bfff, #9370db, #ff69b4);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: rainbow 5s linear infinite;
+            margin-bottom: 10px;
+        }
+
+        #message-text {
+            font-family: 'Asap', sans-serif;
+            font-weight: 700;
+            font-size: 16px;
+        }
+
+        #footer-text {
+            font-family: 'Asap', sans-serif;
+            font-weight: 900;
+            color: black;
+            opacity: 0.5;
+            font-size: 14px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #faq {
+            font-family: 'Asap', sans-serif;
+            font-weight: 700;
+            font-size: 24px;
+            background: linear-gradient(90deg, #ff69b4, #ffff00, #00ff00, #00bfff, #9370db, #ff69b4);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: rainbow 5s linear infinite;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <div class="brand">
-        <div class="logo" aria-hidden>
-          <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="64" height="64" rx="12" fill="none"/><path d="M48 20L40 34L32 20L24 34L16 20V44H48V20Z" fill="white" fill-opacity="0.95"/></svg>
+    <div id="screen1">
+        <h1>happycrownfarm.net bestest freesest downloads</h1>
+        <button id="download-btn">download</button>
+    </div>
+    <div id="screen2">
+        <div id="gradient-overlay"></div>
+        <img id="logo" src="https://happycrownfarm.net/happycrownfarm.png" alt="MY SHIT">
+        <div id="thanks">THANKS FOR DOWNLOADS</div>
+        <div id="message-box">
+            <img id="selfie" src="https://happycrownfarm.net/029.png" alt="ME">
+            <div id="message-content">
+                <div id="flounder-title">MESSAGE FROM OUR FOUNDER xXMLG_Fum0_G0DXx</div>
+                <div id="message-text">Ólafur Tryggvason, the former player who gained fame by cheating to win the first ever Fall Guys crown, has now retired from competitive play and focuses on creating content. He used various tools to gain an advantage, but always emphasized fair play and entertainment in his streams. His legacy in the Fall Guys community remains a mix of controversy and admiration for his skill.</div>
+            </div>
         </div>
-        <div>
-          <h1>FallMaster</h1>
-          <p>Premium god mode cheat for Fall Guys.</p>
-        </div>
-      </div>
-      <nav>
-        <a href="https://happycrownfarm.net">Home</a>
-        <a href="https://happycrownfarm.net/faq">FAQ</a>
-      </nav>
-    </header>
+        <div id="footer-text">HAPPYCROWNFARM.NET PROVIDE FREE FLYHACKER CHEATS FREE SAFE | HAPPYCROWNFARM.NET AND ITS SUBSIDIARIES<br>ARE PROPERTY OF xXMLG_Fum0_G0DXx | PLEASE CHEAT RESPONSIBLY</div>
+        <div id="faq" onclick="window.open('https://happycrownfarm.net/faq', '_blank')">FAQ</div>
+    </div>
+    <audio id="bla-bla-bla" src="https://happycrownfarm.net/THANKYOUFORDOWNLOAD.wav"></audio>
 
-    <section class="hero">
-      <div class="card hero-left">
-        <h2>The best Fall Guys cheats currently on the market.</h2>
-        <p>FallMaster is a regularly updated and premium hack tool for Fall Guys. Any cheat you need is here! <s>Buy</s> today!</p>
-
-        <div class="features" aria-hidden>
-          <div class="feat">Cheats</div>
-          <div class="feat">Specials</div>
-          <div class="feat">Hotkeys</div>
-          <div class="feat">Stream-friendly</div>
-        </div>
-
-        <div class="download-cta">
-          <a id="download" class="btn-primary" href="https://mega.nz/file/ORtBwTRT#wiUukHaV1hF3_GXfLbv3-ht4Yybr5mQzPm8-1VHZumY" target="_blank" rel="noopener noreferrer">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden>
-              <path d="M12 3v12" stroke="#081226" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M8 11l4 4 4-4" stroke="#081226" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M21 21H3" stroke="#081226" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-            Download FallMaster
-          </a>
-          <a class="btn-secondary" href="https://happycrownfarm.net/faq">Learn more</a>
-        </div>
-
-        <p style="margin-top:18px;color:var(--muted);font-size:13px">*HAPPYCROWNFARM.NET PROVIDE FALLMASTER CHEATS FREE NO CHARGE  *HAPPYCROWNFARM.NET AND ITS SUBSIDIARIES ARE PROPERTY OF xXMLG_Fum0_G0DXx  *PLEASE CHEAT RESPONSIBLY</p>
-      </div>
-
-      <aside class="card card-right">
-        <div class="mini-hero">
-          <h3>What this cheat has:</h3>
-          <div class="meta">v2.4.1 • 12 MB</div>
-        </div>
-
-        <div class="list">
-          <div class="list-item"><div class="badge">C</div><div><strong>Cheats</strong><div style="color:var(--muted);font-size:13px">Increase and decrease CharacterController values</div></div></div>
-          <div class="list-item"><div class="badge">I</div><div><strong>Specials</strong><div style="color:var(--muted);font-size:13px">Fallhalla Mode (God Mode)</div></div></div>
-          <div class="list-item"><div class="badge">K</div><div><strong>Hotkeys</strong><div style="color:var(--muted);font-size:13px">Quick toggles & profiles</div></div></div>
-          <div class="list-item"><div class="badge">W</div><div><strong>Stream-friendly</strong><div style="color:var(--muted);font-size:13px">Stream-ready</div></div></div>
-        </div>
-
-        <div style="margin-top:16px;color:var(--muted);font-size:13px">Supports Windows 10+, lightweight inject, all the cheats in one place. Designed for cheaters by cheaters..</div>
-      </aside>
-    </section>
-
-    <section id="features" style="margin-top:36px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px">
-      <div class="card">
-        <h4 style="margin:0 0 10px">Performance-first</h4>
-        <p style="margin:0;color:var(--muted)">Optimized for minimal CPU/GPU use. Perfect for getting crowns on lower-end devices where winning may be hard due to lower framerates!</p>
-      </div>
-      <div class="card">
-        <h4 style="margin:0 0 10px">Safe & Private</h4>
-        <p style="margin:0;color:var(--muted)">No data collection, local settings. Safe, secure and completely private.</p>
-      </div>
-      <div class="card">
-        <h4 style="margin:0 0 10px">Stream Ready</h4>
-        <p style="margin:0;color:var(--muted)">All FallMaster cheat GUI is completely invisible from most streaming apps. Be sneaky!</p>
-      </div>
-    </section>
-
-    <footer>
-      <div class="rainbow-text">HAPPYCROWNFARM.NET PROVIDE FALLMASTER CHEATS FREE NO CHARGE | HAPPYCROWNFARM.NET AND ITS SUBSIDIARIES ARE PROPERTY OF xXMLG_Fum0_G0DXx | PLEASE CHEAT RESPONSIBLY<br><br>Ólafur Tryggvason, the former player who gained fame by cheating to win the first ever Fall Guys crown, has now retired from competitive play and focuses on creating content. He used various tools to gain an advantage, but always emphasized fair play and entertainment in his streams. His legacy in the Fall Guys community remains a mix of controversy and admiration for his skill.
-
-
-<style>
-  :root{
-    --glide-duration: 900ms;
-    --glide-delay: 120ms;
-    --glide-distance: 18vh;     
-    --glide-final-bottom: 5vh;    
-    --glide-ease: cubic-bezier(.22,.61,.36,1);
-  }
-
-  .glide-in-img{
-    position: fixed;
-    left: 50%;
-    bottom: var(--glide-final-bottom);
-    transform: translateX(-50%) translateY(var(--glide-distance));
-    opacity: 0;
-    will-change: transform, opacity;
-    filter: drop-shadow(0 6px 16px rgba(0,0,0,.25));
-  }
-
-  .glide-in-img.is-in{
-    transition:
-      transform var(--glide-duration) var(--glide-ease) var(--glide-delay),
-      opacity   var(--glide-duration) ease-out          var(--glide-delay);
-    transform: translateX(-50%) translateY(0);
-    opacity: 1;
-  }
-
-</style>
-
-<img
-  id="promo-glide"
-  class="glide-in-img"
-  src="https://happycrownfarm.net/029.png"
-  alt="Glide In Example"
-  width="150"
-/>
-
-<script>
-  (function () {
-    const img = document.getElementById('promo-glide');
-    if (!img) return;
-
-    const activate = () => requestAnimationFrame(() => img.classList.add('is-in'));
-    if (document.readyState === 'complete') activate();
-    else window.addEventListener('load', activate, { once: true });
-  })();
-</script>
+    <script>
+        document.getElementById('download-btn').addEventListener('click', function() {
+            document.getElementById('screen1').style.display = 'none';
+            document.getElementById('screen2').style.display = 'flex';
+            window.open('http://85.192.49.206:10002/latest_ver', '_blank');
+            document.getElementById('bla-bla-bla').play();
+        });
+    </script>
+</body>
+</html>
